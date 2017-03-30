@@ -2,10 +2,11 @@ package panichandler
 
 import (
 	"fmt"
-	"github.com/golang/glog"
 	"os"
 	"runtime"
 	"runtime/debug"
+
+	"github.com/mosteknoloji/glog"
 )
 
 func LogPanicDump(r interface{}) {
